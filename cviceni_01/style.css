@@ -1,0 +1,49 @@
+.profilovka {
+  border-radius: 50%;
+  height: 170px;
+  width: 170px;
+  position: relative;
+  left: calc(100% / 2 - 85px);
+}
+
+body {
+  background-color: lightpink;
+  width: auto;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 80px;
+}
+
+div {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 48px;
+  padding-bottom: 20px;
+}
+
+.kontakt {
+  font-weight: bold;
+}
+
+.seznam {
+  padding: 0;
+}
+
+.ikonka {
+  height: 30px;
+  width: 30px;
+  text-align: left;
+  padding-left: 200px;
+}
+
+ul {
+  padding: 0cm;
+}
+
+a {
+  text-decoration: none;
+  color: hotpink;
+}
