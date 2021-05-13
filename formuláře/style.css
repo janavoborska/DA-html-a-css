@@ -1,0 +1,47 @@
+/*
+h1 {
+  color: aqua;
+}
+
+h1,
+form {
+  text-align: center;
+}
+
+h1::first-letter {
+  color: pink;
+}
+
+<h1>Vyhledavac</h1>
+    <form action="https://search.seznam.cz/">
+      <input type="text" name="q" />
+      <button>Search</button>
+*/
+
+label,
+select {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.obdobi {
+  margin-bottom: 1rem;
+}
+
+.obdobi input {
+  vertical-align: -0.15em;
+  margin-right: 1rem;
+}
+
+#doplnujici_informace {
+  vertical-align: -1.15rem;
+}
+
+select {
+  width: 10rem;
+  color: black;
+}
+
+input:invalid {
+  background-color: #f76e6e;
+}

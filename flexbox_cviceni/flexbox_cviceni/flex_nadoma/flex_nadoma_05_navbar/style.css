@@ -1,0 +1,57 @@
+/* nejsme vcerejsi, pouzivame moderni box model */
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.hlavicka {
+  background-color: #3498db;
+  color: white;
+}
+
+a {
+  display: block;
+  padding: 5px 15px;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: white;
+  color: #3498db;
+}
+
+/* ZADÁNÍ: 
+prohlédni si HTML. Prohlédni si obrázek výsledku a nastyluj hlavičku, aby odpovídala (přibližně) výsledku. Kromě použití flexboxu je potřeba logo, menu a odkazy v menu trochu nastylovat. Mrkni na vlastnosti týkající se box modelu(padding, margin, ...), fontu, textu, nebo položek seznamu */
+
+.hlavicka {
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+}
+
+.menu {
+  display: flex;
+  padding: 0%;
+  margin: 0%;
+}
+
+.logo {
+  padding-left: 10px;
+  padding-top: 5px;
+  font: bold;
+  font-size: 20px;
+}
+
+li {
+  display: block;
+}
+
+a {
+  display: inline-block;
+}
